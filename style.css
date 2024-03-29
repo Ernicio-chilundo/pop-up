@@ -1,0 +1,53 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;}
+
+dialog{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 800px;
+    height: 400px;
+
+    background-image: url(img/pastelaria.jpg);
+    background-size: cover;
+    border: 0;
+}
+
+dialog::backdrop{
+    background-color: #0000009a;
+}
+
+dialog div{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+dialog div h1 {
+    font-size: 4em;
+    color: #15d1c4;
+}
+
+dialog div p:nth-of-type(1){
+    font-size: 1.2em;
+}
+
+dialog div button{
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #05857c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin: 20px;
+    border: none;
+}

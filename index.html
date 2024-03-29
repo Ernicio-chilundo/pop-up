@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>pop-up</title>
+</head>
+
+<body>
+    <button id="abrir">ABRIR</button>
+    <dialog>
+        <div>
+            <p>APENAS HOJE</p>
+            <h1>30% OFF</h1>
+            <p>De novos ares ao seu escritorio</p>
+            <button style="border: none;">EU QUERO</button>
+        </div>
+    </dialog>
+    <script>
+        let btn = document.querySelector('#abrir')
+        let modal = document.querySelector('dialog')
+        // btn.onclick=() =>{
+        modal.showModal()
+        //  }
+    </script>
+</body>
+
+</html>
