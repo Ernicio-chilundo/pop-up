@@ -12,7 +12,7 @@ dialog{
     width: 800px;
     height: 400px;
 
-    background-image: url(img/hero.jpg);
+    background-image: url(img/espaco.jpg);
     background-size: cover;
     border: 0;
 }
@@ -38,6 +38,20 @@ dialog div h1 {
 
 dialog div p:nth-of-type(1){
     font-size: 1.2em;
+}
+
+dialog > button {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border: 0;
+    background-color: aqua;
+    color: #fff;
+    cursor: pointer;
 }
 
 dialog div button{
